@@ -1,0 +1,120 @@
+body {
+    font-family: "Karla", sans-serif;
+    font-weight: bolder;
+}
+
+#container {
+    box-sizing: border-box;
+    margin: 25px auto;
+    text-align: left;
+    width: 550px;
+    height: 550px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 8px;
+    background: #1F2937;
+    color: white;
+}
+
+h1, h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #55F991;
+}
+
+
+#character-qty-container {
+    display: flex;
+    align-items: center;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#character-qty {
+    margin-left: 10px;
+    width: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+    font-weight: 100;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+#checkbox-container {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+#checkbox-letters, #checkbox-numbers, #checkbox-symbols {
+    margin-right: 5px;
+}
+
+//#checkbox-numbers, #checkbox-symbols {
+    //margin-left: 30px;
+//}
+
+button {
+    background-color: #10B981;
+    color: white;
+    box-sizing: border-box;
+    height: 42px;
+    width: 191px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#error-message {
+    box-sizing: border-box;
+    height: 15px;
+    font-size: 16px;
+    font-style: italic;
+    color: red;
+    text-shadow: 0px 0px 1px white;
+}
+
+#password-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-weight: normal;
+}
+
+p {
+    font-weight: 100;
+    margin-top: 18px;
+    font-size: 22px;
+}
+
+#password-one, #password-two {
+    background: #273549;
+    border-radius: 6px;
+    color: #55F991;
+    padding: 12px 10px 10px 10px;
+    box-sizing: border-box;
+    height: 39px;
+    width: 211px;
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #2F3E53;
+}

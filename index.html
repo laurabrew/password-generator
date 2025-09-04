@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <h1>Generate a</h1>
+            <h2>random password</h2>
+            <p>Never use an insecure password again.</p>
+            <hr>
+            <div id="character-qty-container">
+                <label for="character-qty">Number of characters: </label>
+                <input type="text" id="character-qty" name="character-qty" value=15>
+                <h3>(must be between 8 and 20)</h3>
+            </div>
+            <div id = "checkbox-container">
+                <div>
+                    <input type = "checkbox" id="checkbox-letters" name="include-elements" value="letters" checked/>
+                    <label for = "checkbox-letters"> Include letters</label>
+                </div>
+                <div>
+                    <input type = "checkbox" id="checkbox-numbers" name="include-elements" value="numbers" checked/>
+                    <label for = "checkbox-numbers"> Include numbers</label>
+                </div>
+                <div>
+                    <input type = "checkbox" id="checkbox-symbols" name="include-elements" value="symbols" checked/>
+                    <label for = "checkbox-symbols"> Include symbols</label>
+                </div>
+            </div>
+            <button id="btn-generate" onclick="generate()">Generate passwords</button>
+            <p id="error-message"> </p>
+            <hr>
+            <div id="password-container">
+                <div id="password-one"></div>
+                <div id="password-two"></div>
+            </div>
+        </div>    
+        <script src="index.js"></script>
+    </body>
+</html>
