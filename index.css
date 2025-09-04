@@ -92,8 +92,8 @@ button {
 
 #password-container {
     display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+    justify-content: space-between;
+    margin-top: 20px;
     font-weight: normal;
 }
 
