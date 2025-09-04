@@ -9,7 +9,7 @@ body {
     text-align: left;
     width: 550px;
     height: 550px;
-    padding-top: 80px;
+    padding-top: 70px;
     padding-bottom: 40px;
     padding-left: 50px;
     padding-right: 50px;
@@ -76,7 +76,7 @@ button {
     width: 191px;
     border-radius: 5px;
     border: none;
-    margin-top: 10px;
+    margin-top: 0;
     margin-bottom: 0;
     font-size: 16px;
 }
